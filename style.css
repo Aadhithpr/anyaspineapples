@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	 background-image: url(pictures/ourtinylittlenest.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   background-position: center;
+   background-attachment: fixed;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: cursive;
+}
+
+li {
+	list-style-type: none;
+  float: right;
+}
+
+li a {
+  display: inline-block;
+  font-family:arial ;
+  text-shadow: 0 0 2px;
+  color: antiquewhite;
+  text-align: right;
+  font-size: 15px;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: burlywood;
+}
+
+@media only screen and (min-width: 600px){
+  .home{
+width: 100%;
+
+  }
+}

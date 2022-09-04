@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	text-align: center;
+	margin: 40px 20px 0px 20px;
+
+}
+
+.container .heading{
+
+}
+ 
+.container .heading h1{
+	font-family: arial;
+	color: antiquewhite;
+	font-size: 3em;
+	font-weight: bolder;
+	border-bottom: 3px solid #fff;
+	padding-bottom: 10px;
+}
+
+.container .heading h1 span{
+	font-weight: normal;
+
+}
+
+.container .box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.container .box .dream{
+	display: flex;
+	flex-direction: column;
+	width: 32.5%;
+}
+.container .box .dream img{
+	width: 100%;
+	border-radius: 10PX;
+    padding-bottom: 15px;
+
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: cursive;
+}
+
+li {
+	list-style-type: none;
+  float: right;
+}
+
+li a {
+  display: inline-block;
+  font-family:arial ;
+  text-shadow: 0 0 2px;
+  color: antiquewhite;
+  text-align: right;
+  font-size: 15px;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: burlywood;
+}
+p{
+	color: whitesmoke;
+	font-family: arial;
+	font-size: 15px;
+}
+audio{
+	padding: 15px;
+}
+video{
+	width: 80%;
+}
